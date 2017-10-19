@@ -1,6 +1,6 @@
 # Scala Console TicTacToe
 [![Build Status](https://travis-ci.org/kyle-annen/consoletictactoe.svg?branch=master)](https://travis-ci.org/kyle-annen/consoletictactoe)
-[![Coverage Status](https://coveralls.io/repos/github/kyle-annen/consoletictactoe/badge.svg?branch=master)](https://coveralls.io/github/kyle-annen/scala-tictactoe)
+[![Coverage Status](https://coveralls.io/repos/github/kyle-annen/consoletictactoe/badge.svg?branch=master)](https://coveralls.io/github/kyle-annen/consoletictactoe?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/068dd8bb9d70458685228ec9fab3c164)](https://www.codacy.com/app/kyle-annen/consoletictactoe?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kyle-annen/scala-tictactoe&amp;utm_campaign=Badge_Grade)
 
 
