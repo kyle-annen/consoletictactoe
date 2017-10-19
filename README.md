@@ -19,7 +19,6 @@ To run, clone repository and run the following command from the root directory o
 sbt run
 ```
 
-
 # Test Coverage
 
 To run test coverage:
