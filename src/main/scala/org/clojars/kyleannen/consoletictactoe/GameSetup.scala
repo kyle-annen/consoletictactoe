@@ -1,4 +1,6 @@
-package org.clojars.kyleannen.tictactoe
+package org.clojars.kyleannen.consoletictactoe
+
+import org.clojars.kyleannen.tictactoe._
 
 object GameSetup {
   def setLanguage(

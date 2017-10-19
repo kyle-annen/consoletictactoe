@@ -1,5 +1,6 @@
-package org.clojars.kyleannen.tictactoe
+package org.clojars.kyleannen.consoletictactoe
 
+import org.clojars.kyleannen.tictactoe.{Board, Dialog}
 import org.scalatest.FunSpec
 
 class GameSetupSpec extends FunSpec{

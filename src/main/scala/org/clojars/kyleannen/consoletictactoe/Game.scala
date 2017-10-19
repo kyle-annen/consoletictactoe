@@ -1,8 +1,9 @@
-package org.clojars.kyleannen.tictactoe
+package org.clojars.kyleannen.consoletictactoe
+
+import org.clojars.kyleannen.tictactoe.TTTable.TranspositionTable
 
 import scala.annotation.tailrec
-
-import TTTable.TranspositionTable
+import org.clojars.kyleannen.tictactoe._
 
 object Game {
   def setup(

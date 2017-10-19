@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.clojars.kyleannen</groupId>
-    <artifactId>tictactoe</artifactId>
+    <artifactId>consoletictactoe</artifactId>
     <packaging>jar</packaging>
-    <description>tictactoe</description>
-    <version>0.2.1</version>
-    <name>tictactoe</name>
+    <description>consoletictactoe</description>
+    <version>0.1</version>
+    <name>consoletictactoe</name>
     <organization>
         <name>org.clojars.kyleannen</name>
     </organization>
@@ -47,10 +47,33 @@
             <version>2.12.2</version>
         </dependency>
         <dependency>
+            <groupId>org.scoverage</groupId>
+            <artifactId>scalac-scoverage-runtime_2.12</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.12</artifactId>
             <version>3.0.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.scoverage</groupId>
+            <artifactId>scalac-scoverage-runtime_2.12</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.clojars.kyleannen</groupId>
+            <artifactId>tictactoe</artifactId>
+            <version>0.2.1</version>
+        </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>Clojars</id>
+            <name>Clojars</name>
+            <url>https://clojars.org/repo/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
 </project>

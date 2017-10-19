@@ -1,5 +1,6 @@
-package org.clojars.kyleannen.tictactoe
+package org.clojars.kyleannen.consoletictactoe
 
+import org.clojars.kyleannen.tictactoe.{Board, Dialog, TTTable}
 import org.scalatest._
 
 class GameSpec extends FunSpec {
@@ -159,4 +160,5 @@ class GameSpec extends FunSpec {
       assert(actual == 1 || actual == 2)
     }
   }
+
 }

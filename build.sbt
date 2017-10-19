@@ -5,11 +5,13 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "org.clojars.kyleannen",
       scalaVersion := "2.12.2",
-      version      := "0.2"
+      version      := "0.1"
     )),
-    name := "tictactoe",
+    resolvers += "Clojars" at "https://clojars.org/repo",
+    name := "consoletictactoe",
     libraryDependencies += scalaTest % Test,
     libraryDependencies += "org.scoverage" % "scalac-scoverage-runtime_2.12" % "1.3.0",
+    libraryDependencies += "org.clojars.kyleannen" % "tictactoe" % "0.2.1",
     crossPaths := false,
     publishMavenStyle := true,
     coverageEnabled := true,
